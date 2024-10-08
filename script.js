@@ -1,4 +1,3 @@
-// Function to display a greeting message
 function greetUser() {
     const userName = prompt("What's your name?");
     if (userName) {
@@ -42,12 +41,9 @@ document.addEventListener("DOMContentLoaded", () => {
         colorButton.addEventListener("click", changeBackgroundColor);
     }
 
-    // Form submission event
+
     const form = document.getElementById("myForm");
-    if (form) {
-        form.addEventListener("submit", (event) => {
-            if (!validateForm()) {
-                event.preventDefault(); // Prevent form submission if validation fails
+
             }
         });
     }
