@@ -6,7 +6,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family:Bold, sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     color: #333;
@@ -14,7 +14,7 @@ body {
 
 /* Header styles */
 header {
-    background: #35424a;
+    background: #35429a;
     color: #ffffff;
     padding: 20px 0;
     text-align: center;
